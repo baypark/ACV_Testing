@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>set base url for running test script ACV forntend</description>
+      <initValue>'http://dev.acv-astra.co.id/'</initValue>
+      <name>ACV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>set base url for running test script SERA RECRUITMENT</description>
+      <initValue>'https://recruitment.sera.astra.co.id/'</initValue>
+      <name>REC</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CONTAINER ACV</description>
+      <initValue>'http://qa-frontend.acv-astra.co.id'</initValue>
+      <name>QAACVFRONTEND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CONTAINER ACV</description>
+      <initValue>'http://qa-backend.acv-astra.co.id/'</initValue>
+      <name>QAACVBACKEND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>IP ACV FRONTEND</description>
+      <initValue>'http://52.163.254.108'</initValue>
+      <name>ENV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>set base url for running test script ACV backend</description>
+      <initValue>'http://backend-dev.acv-astra.co.id/'</initValue>
+      <name>BACKENDACV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input min price for pricing</description>
+      <initValue>'120000000'</initValue>
+      <name>SENDKEYSMINPRICE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input max price for pricing</description>
+      <initValue>'150000000'</initValue>
+      <name>SENDKEYSMAXPRICE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_ValueExtract</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>set base url for running test script stagging frontend</description>
+      <initValue>'http://staging.acv-astra.co.id/'</initValue>
+      <name>STAGGINGACVFRONTEND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>set base url for running test script backend stagging</description>
+      <initValue>'http://backend-staging.acv-astra.co.id/'</initValue>
+      <name>STAGGINGACVBACKEND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>set variable for new order</description>
+      <initValue>'B1942ACV'</initValue>
+      <name>NOPOLORDER</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

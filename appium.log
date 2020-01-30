@@ -1,0 +1,40 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 61937
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 61939
+[Appium]   tmpDir: C:\Users\V310\AppData\Local\Temp\\Katalon\Appium\Temp1548125436030
+[Appium] Appium REST http interface listener started on 0.0.0.0:61937
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 102 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 59 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\V310\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\TXRSVI3F\\TrainingPDIMobile[1].apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung SM-T116NU (Android 4.4.4)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"3004d04dabceb200"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\V310\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\TXRSVI3F\\TrainingPDIMobile[1].apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung SM-T116NU (Android 4.4.4)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"3004d04dabceb200"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\V310\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\TXRSVI3F\\TrainingPDIMobile[1].apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceId: ''
+[Appium]   deviceName: 'samsung SM-T116NU (Android 4.4.4)'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '3004d04dabceb200'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 6547e9c3-9c6e-409d-9ce8-8d5392b7d4a6
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\V310\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 3004d04dabceb200
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\V310\.katalon\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'C:\Users\V310\AppData\Local\Microsoft\Windows\INetCache\IE\TXRSVI3F\TrainingPDIMobile[1].apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[AndroidDriver] Ignored error while installing Appium Settings helper: "Could not find aapt.exe in C:\Users\V310\.katalon\tools\android_sdk\platform-tools\aapt.exe,C:\Users\V310\.katalon\tools\android_sdk\emulator\aapt.exe,C:\Users\V310\.katalon\tools\android_sdk\tools\aapt.exe,C:\Users\V310\.katalon\tools\android_sdk\tools\bin\aapt.exe,C:\Users\V310\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe, or supported build-tools under C:\Users\V310\.katalon\tools\android_sdk do you have the Android SDK installed at this location?". Expect some Appium features may not work as expected unless this problem is fixed.
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[HTTP] <-- POST /wd/hub/session 500 17415903 ms - 704 
